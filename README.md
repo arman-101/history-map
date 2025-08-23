@@ -51,11 +51,11 @@ You need to have [Node.js](https://nodejs.org/) (which includes npm) installed o
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone https://github.com/arman-101/history-map.git
     ```
 2.  **Navigate to the project directory:**
     ```sh
-    cd your-repo-name
+    cd history-map
     ```
 3.  **Install NPM packages:**
     ```sh

@@ -12,7 +12,7 @@ export const historicalEvents = [
       description: "Humans begin to transition from hunter-gatherer societies to settled agricultural communities, domesticating plants and animals.",
       link: "https://en.wikipedia.org/wiki/Neolithic_Revolution",
       icon: "fa-solid fa-wheat-awn",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Figurine_of_a_woman_and_child_from_the_Plo%C4%8Dnik_site_%28Vin%C4%8Da_culture%29.jpg/800px-Figurine_of_a_woman_and_child_from_the_Plo%C4%8Dnik_site_%28Vin%C4%8Da_culture%29.jpg"
+      image: "https://www.ancient-origins.net/sites/default/files/field/image/Neolithic-revolution-ancient-farmers.jpg"
     },
     {
       id: "sumer",
@@ -24,7 +24,7 @@ export const historicalEvents = [
       description: "The world's first civilization emerges, inventing writing (cuneiform), the wheel, and creating the first city-states like Uruk.",
       link: "https://en.wikipedia.org/wiki/Sumer",
       icon: "fa-solid fa-city",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Stele_of_the_Vultures_detail_01.jpg/800px-Stele_of_the_Vultures_detail_01.jpg"
+      image: "https://www.realmofhistory.com/wp-content/uploads/2023/07/reconstruction-ur-city-sumerian_1-770x437.jpg"
     },
     {
       id: "pyramids",
@@ -36,7 +36,7 @@ export const historicalEvents = [
       description: "Completed as a tomb for Pharaoh Khufu, it's a masterpiece of ancient engineering and the only surviving wonder of the ancient world.",
       link: "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
       icon: "fa-solid fa-landmark",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Giza_pyramid_complex_%28main_centered_version%29.jpg/1280px-Giza_pyramid_complex_%28main_centered_version%29.jpg"
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/960px-Pyramids_of_the_Giza_Necropolis.jpg"
     },
     {
       id: "hammurabi",
@@ -48,7 +48,7 @@ export const historicalEvents = [
       description: "One of the earliest and most complete written legal codes, proclaimed by the Babylonian king Hammurabi.",
       link: "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
       icon: "fa-solid fa-scale-balanced",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Code_of_Hammurabi_in_the_Louvre_Museum.jpg/800px-Code_of_Hammurabi_in_the_Louvre_Museum.jpg"
+      image: "https://cdn.britannica.com/89/82589-050-98AA8FA9/Hammurabi-god-Babylon.jpg"
     },
      {
       id: "bronze-age-collapse",
@@ -60,7 +60,7 @@ export const historicalEvents = [
       description: "A widespread societal collapse involving the decline of major civilizations like the Mycenaeans, Hittites, and parts of the Egyptian New Kingdom.",
       link: "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
       icon: "fa-solid fa-house-fire",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sea_Peoples.svg/1024px-Sea_Peoples.svg.png"
+      image: "https://retrospectjournal.com/wp-content/uploads/2022/12/1024px-keuninck_coninck_kerstiaen_de_-_fire_of_troy.jpg?w=1024"
     },
     {
       id: "olympics",
@@ -72,7 +72,7 @@ export const historicalEvents = [
       description: "The ancient Olympic Games are founded, a festival of sport and culture that brought the Greek world together.",
       link: "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
       icon: "fa-solid fa-trophy",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Discus_thrower_Lancellotti_Massimo_Inv126371_n2.jpg/800px-Discus_thrower_Lancellotti_Massimo_Inv126371_n2.jpg"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUlQMIIp0EyeApaIHlMs9I_q1j86ALdfb1Bg&s"
     },
     
     // Classical Antiquity
@@ -86,7 +86,7 @@ export const historicalEvents = [
       description: "Siddhartha Gautama achieves enlightenment, becoming the Buddha and founding Buddhism, a major world religion.",
       link: "https://en.wikipedia.org/wiki/The_Buddha",
       icon: "fa-solid fa-om",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/800px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg"
+      image: "https://www.vridhamma.org/sites/default/files/picture-bar/Life%20of%20the%20Buddha_1.jpg"
     },
     {
       id: "alexander",
@@ -110,7 +110,7 @@ export const historicalEvents = [
       description: "The end of the Warring States period marks the beginning of Imperial China. The Great Wall and Terracotta Army are constructed.",
       link: "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
       icon: "fa-solid fa-dragon",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Terracotta_warriors_in_Xian.jpg/1024px-Terracotta_warriors_in_Xian.jpg"
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/QinShiHuang19century.jpg/1200px-QinShiHuang19century.jpg"
     },
     {
       id: "augustus",
@@ -122,7 +122,7 @@ export const historicalEvents = [
       description: "The reign of the first Roman Emperor, Augustus, marks the end of the Roman Republic and the beginning of the Pax Romana.",
       link: "https://en.wikipedia.org/wiki/Augustus",
       icon: "fa-solid fa-crown",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Augusto_di_Prima_Porta%2C_inv._2290%2C_02.jpg/800px-Augusto_di_Prima_Porta%2C_inv._2290%2C_02.jpg"
+      image: "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/augustus-caesar-587488458?_a=BAVAZGDX0"
     },
     {
       id: "jesus",
@@ -134,7 +134,7 @@ export const historicalEvents = [
       description: "The execution of Jesus of Nazareth, a central event in Christianity, which forms the basis of the world's largest religion.",
       link: "https://en.wikipedia.org/wiki/Crucifixion_of_Jesus",
       icon: "fa-solid fa-cross",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Valmy_Chapel_Christ_in_agony.jpg/800px-Valmy_Chapel_Christ_in_agony.jpg"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-QIRmV2ALmJu4r_PQF_6RO42BCfX1r1ttJA&s"
     },
   
     // Post-Classical History
@@ -148,7 +148,7 @@ export const historicalEvents = [
       description: "The deposition of the last emperor, Romulus Augustulus, by Odoacer is traditionally seen as the end of the Western Roman Empire.",
       link: "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire",
       icon: "fa-solid fa-person-military-falling",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Jean-Joseph-Benjamin-Constant_The_Last_of_the_Roman_Emperors.jpg/1024px-Jean-Joseph-Benjamin-Constant_The_Last_of_the_Roman_Emperors.jpg"
+      image: "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-802428712"
     },
     {
       id: "islam",
@@ -160,7 +160,7 @@ export const historicalEvents = [
       description: "The Prophet Muhammad begins receiving divine revelations, forming the basis of the Quran and the Islamic faith.",
       link: "https://en.wikipedia.org/wiki/Muhammad",
       icon: "fa-solid fa-moon",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Siyer-i_Nebi_-_Mohammed_and_the_four_archangels.jpg/800px-Siyer-i_Nebi_-_Mohammed_and_the_four_archangels.jpg"
+      image: "https://mahadsunnah.com/wp-content/uploads/2022/11/347bc51242fe542208cc710cda9a87d0.webp"
     },
     {
       id: "charlemagne",
@@ -172,7 +172,7 @@ export const historicalEvents = [
       description: "Pope Leo III crowns Charlemagne as the first Holy Roman Emperor, uniting much of Western Europe for the first time since the Romans.",
       link: "https://en.wikipedia.org/wiki/Charlemagne",
       icon: "fa-solid fa-hat-wizard",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Albrecht_D%C3%BCrer_-_Emperor_Charlemagne_%28Nuremberg%29.jpg/800px-Albrecht_D%C3%BCrer_-_Emperor_Charlemagne_%28Nuremberg%29.jpg"
+      image: "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:525,cw:1350,ch:1350,q:80,w:1350/MRQBaH5S7udd5FQmKkbzTn.jpg"
     },
     {
       id: "great-schism",
@@ -184,7 +184,7 @@ export const historicalEvents = [
       description: "The formal split between the Western Roman Catholic and Eastern Orthodox churches, a division that persists to this day.",
       link: "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism",
       icon: "fa-solid fa-people-arrows",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Hagia_Sophia_Mars_2013.jpg/1024px-Hagia_Sophia_Mars_2013.jpg"
+      image: "https://i.ytimg.com/vi/r73ixUECwHs/maxresdefault.jpg"
     },
     {
       id: "genghis-khan",
@@ -196,7 +196,7 @@ export const historicalEvents = [
       description: "Genghis Khan establishes the Mongol Empire, which would become the largest contiguous land empire in history.",
       link: "https://en.wikipedia.org/wiki/Genghis_Khan",
       icon: "fa-solid fa-horse-head",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Genghis_Khan_painting_in_National_Palace_Museum.jpg/800px-Genghis_Khan_painting_in_National_Palace_Museum.jpg"
+      image: "https://media.newyorker.com/photos/65831f8b6186c093c0ab6968/16:9/w_2560,h_1440,c_limit/240101_r43571.jpg"
     },
     {
       id: "magna-carta",
@@ -220,7 +220,7 @@ export const historicalEvents = [
       description: "One of the most devastating pandemics in human history, it resulted in the deaths of an estimated 75–200 million people.",
       link: "https://en.wikipedia.org/wiki/Black_Death",
       icon: "fa-solid fa-skull-crossbones",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg/1280px-Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg"
+      image: "https://www.historic-uk.com/wp-content/uploads/2017/06/black-death-2800x1440.jpg"
     },
   
     // Modern History
@@ -246,7 +246,7 @@ export const historicalEvents = [
       description: "The Ottoman Empire, led by Sultan Mehmed II, captures the Byzantine capital, marking the end of the Roman Empire.",
       link: "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
       icon: "fa-solid fa-person-military-to-person",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Zonaro_Capture_of_Constantinople.jpg/1024px-Zonaro_Capture_of_Constantinople.jpg"
+      image: "https://gertitashkomd.com/wp-content/uploads/2025/05/Tashko-Fall-of-Constantinople-1453.jpg"
     },
     {
       id: "columbus",
@@ -258,7 +258,7 @@ export const historicalEvents = [
       description: "Christopher Columbus's voyage marks the beginning of lasting European contact with the Americas, initiating the Columbian Exchange.",
       link: "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus",
       icon: "fa-solid fa-ship",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Col%C3%B3n_tomando_posesi%C3%B3n.jpg/1024px-Col%C3%B3n_tomando_posesi%C3%B3n.jpg"
+      image: "https://cdn.britannica.com/22/143622-050-FD012047/Landing-Columbus-oil-canvas-John-Vanderlyn-US-1846.jpg"
     },
     {
       id: "reformation",
@@ -270,7 +270,7 @@ export const historicalEvents = [
       description: "Martin Luther posts his Ninety-five Theses, sparking a schism in Western Christianity and leading to profound religious and political change.",
       link: "https://en.wikipedia.org/wiki/Reformation",
       icon: "fa-solid fa-church",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/800px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg"
+      image: "https://firstamendment.mtsu.edu/wp-content/uploads/sites/2/2023/06/Luther95theses_0.jpg"
     },
     {
       id: "enlightenment",
@@ -294,7 +294,7 @@ export const historicalEvents = [
       description: "A period of major industrialization that saw the transition to new manufacturing processes, fundamentally changing society.",
       link: "https://en.wikipedia.org/wiki/Industrial_Revolution",
       icon: "fa-solid fa-industry",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arkwright_Richard_painted_by_Joseph_Wright_of_Derby.jpg/800px-Arkwright_Richard_painted_by_Joseph_Wright_of_Derby.jpg"
+      image: "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_1.7777777777777777,w_3840,h_2163,g_center/dpr_auto/f_auto/q_auto:eco:sensitive/v1/second_industrial_revolution_gettyimages-51632462-1?_a=BAVAZGDX0"
     },
     {
       id: "american-revolution",
@@ -306,7 +306,7 @@ export const historicalEvents = [
       description: "The thirteen American colonies declare independence from Great Britain, leading to the formation of the United States.",
       link: "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence",
       icon: "fa-solid fa-flag-usa",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/John_Trumbull_-_The_Declaration_of_Independence.jpg/1280px-John_Trumbull_-_The_Declaration_of_Independence.jpg"
+      image: "https://cdn.britannica.com/21/143621-159-3EDE9040/Declaration-of-Independence-canvas-rotunda-John-Trumbull-July-4-1776.jpg"
     },
     {
       id: "french-revolution",
@@ -318,7 +318,7 @@ export const historicalEvents = [
       description: "A period of radical political and societal change in France that ended the monarchy and had a lasting impact on modern history.",
       link: "https://en.wikipedia.org/wiki/French_Revolution",
       icon: "fa-solid fa-torii-gate",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Prise_de_la_Bastille.jpg/1024px-Prise_de_la_Bastille.jpg"
+      image: "https://static.wixstatic.com/media/5419df_9d99fd75706848bf88903630a53a7a54~mv2.jpg/v1/fill/w_640,h_424,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5419df_9d99fd75706848bf88903630a53a7a54~mv2.jpghttps://orion-uploads.openroadmedia.com/md_6780fb194163-napoleon.jpg"
     },
   
     // Contemporary History
@@ -332,7 +332,7 @@ export const historicalEvents = [
       description: "A series of major global conflicts pitting the French Empire and its allies, led by Napoleon I, against a fluctuating array of European powers.",
       link: "https://en.wikipedia.org/wiki/Napoleonic_Wars",
       icon: "fa-solid fa-chess-king",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/1280px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg"
+      image: "https://orion-uploads.openroadmedia.com/md_6780fb194163-napoleon.jpg"
     },
     {
       id: "communist-manifesto",
@@ -344,7 +344,7 @@ export const historicalEvents = [
       description: "Karl Marx and Friedrich Engels publish their political pamphlet, which would become one of the world's most influential political documents.",
       link: "https://en.wikipedia.org/wiki/The_Communist_Manifesto",
       icon: "fa-solid fa-book-skull",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Marx_and_Engels_The_Communist_Manifesto_title_page_1848.jpg/800px-Marx_and_Engels_The_Communist_Manifesto_title_page_1848.jpg"
+      image: "https://m.media-amazon.com/images/I/71O1MLu9evL._UF894,1000_QL80_.jpg"
     },
     {
       id: "ww1",
@@ -356,7 +356,7 @@ export const historicalEvents = [
       description: "Known as the Great War, it was a global conflict that reshaped the political map of Europe and led to unprecedented casualties.",
       link: "https://en.wikipedia.org/wiki/World_War_I",
       icon: "fa-solid fa-helmet-safety",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Battle_of_the_Somme_1916.jpg/1024px-Battle_of_the_Somme_1916.jpg"
+      image: "https://www.historyhit.com/app/uploads/2020/07/The_Battle_of_the_Somme_film_image1-3.jpg"
     },
     {
       id: "russian-revolution",
@@ -368,7 +368,7 @@ export const historicalEvents = [
       description: "A pair of revolutions that dismantled the Tsarist autocracy and led to the rise of the Soviet Union, the world's first communist state.",
       link: "https://en.wikipedia.org/wiki/Russian_Revolution",
       icon: "fa-solid fa-star",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lenin_Speaks_in_Moscow_on_5_May_1920_-_GPN-2002-000137.jpg/1024px-Lenin_Speaks_in_Moscow_on_5_May_1920_-_GPN-2002-000137.jpg"
+      image: "https://update.lib.berkeley.edu/wp-content/uploads/2017/09/RUSSIANREV_02.jpg"
     },
     {
       id: "ww2",
@@ -380,7 +380,7 @@ export const historicalEvents = [
       description: "The deadliest conflict in human history, involving more than 30 countries and resulting in 70 to 85 million fatalities.",
       link: "https://en.wikipedia.org/wiki/World_War_II",
       icon: "fa-solid fa-plane-bomb",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Bundesarchiv_Bild_101I-299-1805-16%2C_Russland%2C_Soldaten_der_Waffen-SS_im_Sch%C3%BCtzengraben.jpg/1024px-Bundesarchiv_Bild_101I-299-1805-16%2C_Russland%2C_Soldaten_der_Waffen-SS_im_Sch%C3%BCtzengraben.jpg"
+      image: "https://www.historic-newspapers.com/cdn/shop/articles/WW2-timeline-featured-iage_662e418e-ab05-436e-a8ee-94736a47c32c.jpg?v=1749305962&width=1440"
     },
     {
       id: "moon-landing",
@@ -404,7 +404,7 @@ export const historicalEvents = [
       description: "The pivotal event that symbolized the end of the Cold War and led to the reunification of Germany.",
       link: "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall",
       icon: "fa-solid fa-bridge-circle-xmark",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Berlinermauer.jpg/1024px-Berlinermauer.jpg"
+      image: "https://media.cnn.com/api/v1/images/stellar/prod/191107162239-berlin-wall-fall-1.jpg?q=w_3748,h_2457,x_0,y_0,c_fill"
     },
     {
       id: "world-wide-web",
@@ -416,7 +416,7 @@ export const historicalEvents = [
       description: "CERN makes the World Wide Web project public, sparking the digital revolution and fundamentally changing how we access information.",
       link: "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web",
       icon: "fa-solid fa-globe",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg/800px-Sir_Tim_Berners-Lee_%28cropped%29.jpg"
+      image: "https://www.firstonline.info/wp-content/uploads/2024/08/www.webp"
     },
     {
       id: "covid-19",
@@ -428,7 +428,7 @@ export const historicalEvents = [
       description: "A worldwide pandemic caused by a novel coronavirus that led to global social and economic disruption, lockdowns, and millions of deaths.",
       link: "https://en.wikipedia.org/wiki/COVID-19_pandemic",
       icon: "fa-solid fa-virus-covid",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Reproduction_of_the_COVID-19_virus.jpg/1024px-Reproduction_of_the_COVID-19_virus.jpg"
+      image: "https://www.un.org/sites/un2.un.org/files/field/image/1583952355.1997.jpg"
     }
   ];
   
