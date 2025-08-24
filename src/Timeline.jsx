@@ -1,95 +1,68 @@
-// src/Timeline.jsx
-
 import React from 'react';
-import { motion as Motion } from 'framer-motion';
-import { historicalEvents } from './data';
+import { motion as Motion } from 'framer-motion'; // Reverted to the specified alias
 
 const eraConfig = {
-    "Ancient History": {
-        gradient: "from-amber-500 to-yellow-400",
-        shadow: "shadow-amber-500/30",
-        marker: "bg-amber-500"
-    },
-    "Classical Antiquity": {
-        gradient: "from-lime-500 to-green-400",
-        shadow: "shadow-lime-500/30",
-        marker: "bg-lime-500"
-    },
-    "Post-Classical History": {
-        gradient: "from-cyan-500 to-sky-400",
-        shadow: "shadow-cyan-500/30",
-        marker: "bg-cyan-500"
-    },
-    "Modern History": {
-        gradient: "from-fuchsia-500 to-purple-500",
-        shadow: "shadow-fuchsia-500/30",
-        marker: "bg-fuchsia-500"
-    },
-    "Contemporary History": {
-        gradient: "from-rose-500 to-red-500",
-        shadow: "shadow-rose-500/30",
-        marker: "bg-rose-500"
-    },
+    "Ancient History": { gradient: "from-amber-500 to-yellow-400", shadow: "shadow-amber-500/30", marker: "bg-amber-500" },
+    "Classical Antiquity": { gradient: "from-lime-500 to-green-400", shadow: "shadow-lime-500/30", marker: "bg-lime-500" },
+    "Post-Classical History": { gradient: "from-cyan-500 to-sky-400", shadow: "shadow-cyan-500/30", marker: "bg-cyan-500" },
+    "Modern History": { gradient: "from-fuchsia-500 to-purple-500", shadow: "shadow-fuchsia-500/30", marker: "bg-fuchsia-500" },
+    "Contemporary History": { gradient: "from-rose-500 to-red-500", shadow: "shadow-rose-500/30", marker: "bg-rose-500" },
 };
 
-const Timeline = () => {
-    const yearMarkers = [];
-    for (let year = -10000; year <= 2000; year += 1000) {
-        yearMarkers.push({ type: 'marker', year, id: `marker-${year}` });
+const Timeline = ({ events }) => {
+
+    if (!events || events.length === 0) {
+        return (
+            <div className="text-center py-20">
+                <i className="fa-solid fa-search text-5xl text-slate-400 mb-4"></i>
+                <h2 className="text-3xl font-bold text-slate-700">No Events Found</h2>
+                <p className="text-slate-500 mt-2">Try adjusting your search or filter settings.</p>
+            </div>
+        );
     }
-
-    const timelineItems = [...historicalEvents, ...yearMarkers].sort((a, b) => a.year - b.year);
-
-    let eventIndex = -1; // Use a separate counter for event card alignment
 
     return (
         <div className="container mx-auto px-4 py-8">
-            <div className="relative wrap overflow-hidden p-10 h-full">
-                {/* Central Line */}
-                <div className="absolute border-2-2 border-slate-300 h-full border" style={{ left: '50%' }}></div>
+            <div className="relative wrap overflow-hidden p-2 md:p-10 h-full">
+                <div className="absolute border-2-2 border-slate-300 h-full border hidden md:block" style={{ left: '50%' }}></div>
 
-                {timelineItems.map((item) => {
-                    if (item.type === 'marker') {
-                        return (
-                            <div key={item.id} className="mb-8 flex justify-center items-center w-full relative">
-                                <div className="z-10 bg-slate-400 text-white font-bold text-xs px-3 py-1 rounded-full shadow-md">
-                                     {item.year === 0 ? '1 CE' : `${Math.abs(item.year)} ${item.year < 0 ? 'BCE' : 'CE'}`}
-                                </div>
-                            </div>
-                        );
-                    }
-                    
-                    // This is an event card, increment the index
-                    eventIndex++;
-                    const isRight = eventIndex % 2 === 0;
+                {events.map((item, index) => {
+                    const isRight = index % 2 === 0;
                     const config = eraConfig[item.era];
 
                     const cardVariants = {
-                        hidden: { opacity: 0, x: isRight ? 100 : -100 },
-                        visible: {
-                            opacity: 1, x: 0,
-                            transition: { duration: 0.6, ease: "easeOut" }
-                        }
+                        hidden: { opacity: 0, y: 50 },
+                        visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }
                     };
                     
                     return (
+                        // Reverted to use Motion.div
                         <Motion.div
                             id={`event-${item.id}`}
-                            className={`mb-8 flex justify-between items-center w-full ${isRight ? 'flex-row-reverse' : ''}`}
+                            className={`mb-8 flex md:justify-between items-center w-full ${isRight ? 'md:flex-row-reverse' : ''}`}
                             key={item.id}
                             initial="hidden"
                             whileInView="visible"
-                            viewport={{ once: true, amount: 0.5 }}
+                            viewport={{ once: true, amount: 0.3 }}
                             variants={cardVariants}
                         >
-                            <div className="order-1 w-5/12"></div>
-                            <div className={`z-20 flex items-center order-1 w-5 h-5 rounded-full ${config.marker}`}></div>
-                            <div className="order-1 w-5/12 px-1">
-                                <div className="rounded-lg shadow-2xl bg-white border border-slate-200 overflow-hidden">
-                                    <img src={item.image} alt={item.title} className="w-full h-40 object-cover" />
+                            <div className="hidden md:block w-5/12"></div>
+                            <div className={`z-20 hidden md:flex items-center order-1 w-5 h-5 rounded-full ${config.marker}`}></div>
+                            
+                            <div className="order-1 w-full md:w-5/12 px-1 py-4">
+                                <div className="rounded-xl shadow-2xl bg-white border border-slate-200 overflow-hidden transform transition-transform hover:-translate-y-1">
+                                    <img src={item.image} alt={item.title} className="w-full h-48 object-cover" />
                                     <div className="p-6">
-                                        <h3 className="mb-2 font-bold text-slate-800 text-2xl">{item.title}</h3>
-                                        <p className="text-sm leading-snug tracking-wide text-slate-500 font-semibold mb-3">
+                                        <div className="flex items-center gap-4 mb-3">
+                                            <div className={`flex-shrink-0 w-12 h-12 rounded-full text-white text-xl flex items-center justify-center bg-gradient-to-br ${config.gradient}`}>
+                                                <i className={item.icon}></i>
+                                            </div>
+                                            <div>
+                                                <h3 className="font-bold text-slate-800 text-2xl">{item.title}</h3>
+                                                <p className="text-xs text-slate-400 font-semibold">{item.era}</p>
+                                            </div>
+                                        </div>
+                                        <p className="text-sm leading-snug tracking-wide text-slate-500 font-semibold mb-4 bg-slate-100 p-2 rounded-md">
                                             <i className="fa-solid fa-calendar-days mr-2"></i>{item.date} | <i className="fa-solid fa-location-dot ml-2 mr-2"></i>{item.location}
                                         </p>
                                         <p className="text-md leading-relaxed text-slate-600">
